@@ -1,0 +1,118 @@
+
+.menu{
+	background-color: #3f3c4c;
+	padding: 5px 0;
+}
+.menu .logo{
+	max-width: 100%
+}
+.main-menu ul li {
+	padding-top: 25px;
+	list-style: none;
+	display: inline-flex;
+	text-transform: uppercase;
+	font-family: "Avenir Next";
+}
+.main-menu ul li a{
+	color:white;
+	margin-right: 10px;
+}
+.presentacion{
+	padding-top: 120px;
+	padding-bottom: 100px;
+	font-family: "Avenir Next";
+	font-size: 12pt;
+}
+img.pizarron{
+	max-width: 100%;
+	text-align: center;
+}
+.presentacion .caracteristicas{
+	padding: 50px 0;
+}
+.caracteristicas img{
+	max-width: 40%;
+	text-align: center;
+}
+.caracteristicas h3{
+	font-size: 13pt;
+	color: #2ea9b0;
+	padding: 15px 0;
+	text-align: center;
+}
+.caracteristicas p{
+	text-align: center;
+
+}
+.caracteristicas .primario{
+	background-color: #ff414d;
+	border-radius: 5px;
+	border:none;
+	padding: 5px 20px;
+	color: white;
+	font-size: 16pt;
+	font-weight: 500;
+	margin-top: 60px;
+}
+.primario:hover{
+	border: #ff414d;
+	border-radius: 5px;
+}
+.materiales{
+	background-color: #e9eaea;
+	padding: 80px 0;
+}
+.materiales h1{
+	text-transform: uppercase;
+	color: #2ea9b0;
+	font-size: 30pt;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 90px;
+}
+.materiales img{
+	max-width: 100%;
+	margin: 0px 90px;
+}
+.productos{
+	background-color: white;
+	padding:80px 0;
+	padding-bottom: 400px; 
+}
+.productos h2{
+	text-transform: uppercase;
+	color: #2ea9b0;
+	font-size: 30pt;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 90px;
+}
+.usos {
+	background-color: #e9eaea;
+	padding: 80px 0;
+
+}
+.testimonios{
+	background-color: #ffffff;
+	padding: 80px 0;
+}
+.footer{
+	background-color: #3f3c4c;
+	padding: 90px 0 140px 0;
+}
+.footer .logo img{
+	max-width: 100%;
+}
+.footer h2{
+	color: white;
+	font-size: 12pt;
+	font-weight: 400;
+}
+.footer p{
+color: white;
+font-size: 10pt;
+}
+.footer .redes img{
+padding-left: 15px;
+
+}
