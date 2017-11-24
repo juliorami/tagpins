@@ -7,3 +7,10 @@ Compatible con:
 
 - Woocommerce
 - Wordpress 4<
+
+#Team
+
+- Fabiola
+- Thael
+- Julio
+- Juan
