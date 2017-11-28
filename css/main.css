@@ -114,5 +114,38 @@ font-size: 10pt;
 }
 .footer .redes img{
 padding-left: 15px;
-
+}
+.list{
+	padding: 150px 0;
+}
+.list h2{
+	font-size: 25pt;
+	text-align: center;
+	margin-bottom: 80px;
+	color: #ff414d;
+	font-weight: 300;
+}
+.list img{
+	max-width: 30%;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 25px;
+	margin-left: 130px;
+}
+img.tama{
+	max-width: 20%;
+	text-align: center;
+	margin-top: 45px;
+	margin-bottom: 45px;
+	margin-left: 130px;
+}
+.list h1{
+	font-size: 18pt;
+	text-align: center;
+	text-transform: uppercase;
+	color: #2ea9b0;
+}
+.list p{
+	font-size: 12pt;
+	margin-bottom: 80px;
 }
