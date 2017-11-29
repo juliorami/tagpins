@@ -50,14 +50,13 @@
 // HERO
 // - - - - - - - - 
 
-=animateBoard($duration, $repeat)
-  animation-name: slideout
+=animateBoard($duration, $repeat, $name)
+  animation-name: $name
   animation-iteration-count: $repeat
   animation-duration: $duration
 
 .pizarron
   display: block
-  background-color: red
   width: 100%
   height: 200px
   position: relative
@@ -68,39 +67,61 @@
     background-image: url('../img/cork.jpg')
     position: absolute
   .uno
-    +animateBoard(4s,1)
+    +animateBoard(2s,1, slideout)
     bottom: 50%
     left: 0
   .dos
-    +animateBoard(4s,1)
-    top: 0
+    +animateBoard(2s,1, slideouttwo)
+    bottom: 50%
     left: 33.3%  
   .tres
-    +animateBoard(4s,1)
-    top: 0
+    +animateBoard(2s,1, slideoutthree)
+    bottom: 50%
     right: 0  
   .cuatro
-    +animateBoard(4s,1)
+    +animateBoard(2s,1, slideouttwo)
     bottom: 0
     left: 0  
   .cinco
-    +animateBoard(4s,1)
+    +animateBoard(2s,1, slideout)
     bottom: 0
     left: 33.3%  
   .seis
-    +animateBoard(4s,1)
+    +animateBoard(2s,1, slideoutthree)
     bottom: 0
     right: 0
     
 // HERO ANIMATION
 
 @keyframes slideout
-  0%
-    height: 100px
   25%
-    height:  0
+    height: 100px
+  50%
+    height: 0
+  75%
+    height: 0
   100%
-    height:  0
+    height: 0
+
+@keyframes slideouttwo
+  25%
+    height: 100px
+  50%
+    height: 100px
+  75%
+    height: 0
+  100%
+    height: 0
+
+@keyframes slideoutthree
+  25%
+    height: 100px
+  50%
+    height: 100px
+  75%
+    height: 100px
+  100%
+    height: 0
 
 // MATERIALES
 

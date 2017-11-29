@@ -37,7 +37,6 @@
 
 .pizarron {
   display: block;
-  background-color: red;
   width: 100%;
   height: 200px;
   position: relative; }
@@ -50,45 +49,65 @@
   .pizarron .uno {
     animation-name: slideout;
     animation-iteration-count: 1;
-    animation-duration: 4s;
+    animation-duration: 2s;
     bottom: 50%;
     left: 0; }
   .pizarron .dos {
-    animation-name: slideout;
+    animation-name: slideouttwo;
     animation-iteration-count: 1;
-    animation-duration: 4s;
-    top: 0;
+    animation-duration: 2s;
+    bottom: 50%;
     left: 33.3%; }
   .pizarron .tres {
-    animation-name: slideout;
+    animation-name: slideoutthree;
     animation-iteration-count: 1;
-    animation-duration: 4s;
-    top: 0;
+    animation-duration: 2s;
+    bottom: 50%;
     right: 0; }
   .pizarron .cuatro {
-    animation-name: slideout;
+    animation-name: slideouttwo;
     animation-iteration-count: 1;
-    animation-duration: 4s;
+    animation-duration: 2s;
     bottom: 0;
     left: 0; }
   .pizarron .cinco {
     animation-name: slideout;
     animation-iteration-count: 1;
-    animation-duration: 4s;
+    animation-duration: 2s;
     bottom: 0;
     left: 33.3%; }
   .pizarron .seis {
-    animation-name: slideout;
+    animation-name: slideoutthree;
     animation-iteration-count: 1;
-    animation-duration: 4s;
+    animation-duration: 2s;
     bottom: 0;
     right: 0; }
 
 @keyframes slideout {
-  0% {
-    height: 100px; }
   25% {
+    height: 100px; }
+  50% {
     height: 0; }
+  75% {
+    height: 0; }
+  100% {
+    height: 0; } }
+@keyframes slideouttwo {
+  25% {
+    height: 100px; }
+  50% {
+    height: 100px; }
+  75% {
+    height: 0; }
+  100% {
+    height: 0; } }
+@keyframes slideoutthree {
+  25% {
+    height: 100px; }
+  50% {
+    height: 100px; }
+  75% {
+    height: 100px; }
   100% {
     height: 0; } }
 .materiales {
