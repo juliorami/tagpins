@@ -1,39 +1,36 @@
 <?php /* Template Name: tagpin */ ?>
-	<?php get_header() ?>
-		<div class="presentacion">
-			<div class="container">
-				<div class="row">
-					<div class="col-3"></div>
-					<div class="col-6">
-						<img class="pizarron" src="<?php bloginfo('template_url'); ?>/img/pizarron.jpg">
-					</div>
-					<div class="col-3"></div>
+<?php get_header() ?>
+
+<div class="presentacion">
+	<div class="container">
+		<div class="row">
+			<?php include_once('hero.php'); ?>
+		<div class="caracteristicas">
+			<div class="row">
+				<div class="col-2"></div>
+				<div class="col-2">
+					<img src="<?php bloginfo('template_url'); ?>/img/huella.jpg">
+					<h3>DISEÑOS UNICOS</h3>
+					<p>Nuestros pizarrones se adaptan a tu estilo de vida, con diseño diferentes.</p>
 				</div>
-				<div class="caracteristicas">
-					<div class="row">
-						<div class="col-2"></div>
-						<div class="col-2">
-							<img src="<?php bloginfo('template_url'); ?>/img/huella.jpg">
-							<h3>DISEÑOS UNICOS</h3>
-							<p>Nuestros pizarrones se adaptan a tu estilo de vida, con diseño diferentes.</p>
-						</div>
-						<div class="col-1"></div>
-						<div class="col-2">
-							<img src="<?php bloginfo('template_url'); ?>/img/huella.jpg">
-							<h3>100% MEXICANO</h3>
-							<p>Somos una empresa mexicana que se propone revolucionar tu espacio de ideas.</p>
-							<button class="primario">COMPRAR</button>
-						</div>
-						<div class="col-1"></div>
-						<div class="col-2">
-							<img src="<?php bloginfo('template_url'); ?>/img/huella.jpg">
-							<h3>GARANTIA</h3>
-							<p>Estamos comprometidos que nuestros pizarrones duraran más de 5 años. </p>
-						</div>
-					</div>
+				<div class="col-1"></div>
+				<div class="col-2">
+					<img src="<?php bloginfo('template_url'); ?>/img/huella.jpg">
+					<h3>100% MEXICANO</h3>
+					<p>Somos una empresa mexicana que se propone revolucionar tu espacio de ideas.</p>
+					<button class="primario">COMPRAR</button>
+				</div>
+				<div class="col-1"></div>
+				<div class="col-2">
+					<img src="<?php bloginfo('template_url'); ?>/img/huella.jpg">
+					<h3>GARANTIA</h3>
+					<p>Estamos comprometidos que nuestros pizarrones duraran más de 5 años. </p>
 				</div>
 			</div>
 		</div>
+	</div>
+</div>
+
 		<div class="materiales">
 			<div class="container">
 				<div class="row">

@@ -1,3 +1,11 @@
+// UTILIDADES
+
+
+
+// - - - - - - - - 
+// INDEX
+// - - - - - - - - 
+
 .menu
   background-color: #3f3c4c
   padding: 5px 0
@@ -14,15 +22,13 @@
     color: white
     margin-right: 10px
 
+// PRESENTACION
+
 .presentacion
   padding-top: 120px
   padding-bottom: 100px
   font-family: "Avenir Next"
   font-size: 12pt
-
-img.pizarron
-  max-width: 100%
-  text-align: center
 
 .presentacion .caracteristicas
   padding: 50px 0
@@ -39,7 +45,64 @@ img.pizarron
     color: white
     font-size: 12pt
     font-weight: 500
-    margin-top: 60px
+
+// - - - - - - - - 
+// HERO
+// - - - - - - - - 
+
+=animateBoard($duration, $repeat)
+  animation-name: slideout
+  animation-iteration-count: $repeat
+  animation-duration: $duration
+
+.pizarron
+  display: block
+  background-color: red
+  width: 100%
+  height: 200px
+  position: relative
+  .pieza
+    display: inline-block
+    width: 34%
+    height: 100px
+    background-image: url('../img/cork.jpg')
+    position: absolute
+  .uno
+    +animateBoard(4s,1)
+    bottom: 50%
+    left: 0
+  .dos
+    +animateBoard(4s,1)
+    top: 0
+    left: 33.3%  
+  .tres
+    +animateBoard(4s,1)
+    top: 0
+    right: 0  
+  .cuatro
+    +animateBoard(4s,1)
+    bottom: 0
+    left: 0  
+  .cinco
+    +animateBoard(4s,1)
+    bottom: 0
+    left: 33.3%  
+  .seis
+    +animateBoard(4s,1)
+    bottom: 0
+    right: 0
+    
+// HERO ANIMATION
+
+@keyframes slideout
+  0%
+    height: 100px
+  25%
+    height:  0
+  100%
+    height:  0
+
+// MATERIALES
 
 .materiales
   background-color: #e4f5f6
