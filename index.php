@@ -46,6 +46,9 @@
 				<div class="row">
 					<div class="col-12">
 						<h2>otros productos</h2>
+						<div class="desk">
+							<div class="case"></div>
+						</div>
 					</div>
 				</div>
 			</div>
