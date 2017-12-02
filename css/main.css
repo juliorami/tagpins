@@ -1,151 +1,89 @@
+.menu {
+  background-color: #3f3c4c;
+  padding: 5px 0; }
+  .menu .logo {
+    max-width: 100%; }
+  .menu .menu-header_menu-container ul {
+    margin-bottom: 0; }
+    .menu .menu-header_menu-container ul li {
+      list-style: none;
+      padding: 0 20px; }
+      .menu .menu-header_menu-container ul li a {
+        color: white;
+        text-transform: uppercase; }
 
-.menu{
-	background-color: #3f3c4c;
-	padding: 5px 0;
-}
-.menu .logo{
-	max-width: 100%
-}
-.main-menu ul li {
-	padding-top: 25px;
-	list-style: none;
-	display: inline-flex;
-	text-transform: uppercase;
-	font-family: "Avenir Next";
-}
-.main-menu ul li a{
-	color:white;
-	margin-right: 10px;
-}
-.presentacion{
-	padding-top: 120px;
-	padding-bottom: 100px;
-	font-family: "Avenir Next";
-	font-size: 12pt;
-}
-img.pizarron{
-	max-width: 100%;
-	text-align: center;
-}
-.presentacion .caracteristicas{
-	padding: 50px 0;
-}
-.caracteristicas img{
-	max-width: 40%;
-	text-align: center;
-}
-.caracteristicas h3{
-	font-size: 13pt;
-	color: #2ea9b0;
-	padding: 15px 0;
-	text-align: center;
-}
-.caracteristicas p{
-	text-align: center;
+.presentacion {
+  padding-top: 120px;
+  padding-bottom: 100px;
+  font-family: "Avenir Next";
+  font-size: 12pt; }
 
-}
-.caracteristicas .primario{
-	background-color: #ff414d;
-	border-radius: 5px;
-	border:none;
-	padding: 5px 20px;
-	color: white;
-	font-size: 16pt;
-	font-weight: 500;
-	margin-top: 60px;
-}
-.primario:hover{
-	border: #ff414d;
-	border-radius: 5px;
-}
-.materiales{
-	background-color: #e9eaea;
-	padding: 80px 0;
-}
-.materiales h1{
-	text-transform: uppercase;
-	color: #2ea9b0;
-	font-size: 30pt;
-	font-weight: 300;
-	text-align: center;
-	margin-bottom: 90px;
-}
-.materiales img{
-	max-width: 100%;
-	margin: 0px 90px;
-}
-.productos{
-	background-color: white;
-	padding:80px 0;
-	padding-bottom: 400px; 
-}
-.productos h2{
-	text-transform: uppercase;
-	color: #2ea9b0;
-	font-size: 30pt;
-	font-weight: 300;
-	text-align: center;
-	margin-bottom: 90px;
-}
+img.pizarron {
+  max-width: 100%;
+  text-align: center; }
+
+.presentacion .caracteristicas {
+  padding: 50px 0; }
+
+.caracteristicas img {
+  max-width: 40%;
+  text-align: center; }
+
+.caracteristicas .primario {
+  background-color: #ff414d;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 20px;
+  color: white;
+  font-size: 12pt;
+  font-weight: 500;
+  margin-top: 60px; }
+
+.materiales {
+  background-color: #e4f5f6;
+  padding: 80px 0; }
+  .materiales h1 {
+    text-transform: uppercase;
+    color: #ff414d;
+    font-size: 30pt;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 90px; }
+  .materiales img {
+    max-width: 100%;
+    margin: 0px 90px; }
+
+.productos {
+  background-color: #ffd9db;
+  padding: 80px 0;
+  padding-bottom: 400px; }
+  .productos h2 {
+    text-transform: uppercase;
+    color: #3f3c4c;
+    font-size: 30pt;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 90px; }
+
 .usos {
-	background-color: #e9eaea;
-	padding: 80px 0;
+  background-color: #d9d8db;
+  padding: 80px 0; }
 
-}
-.testimonios{
-	background-color: #ffffff;
-	padding: 80px 0;
-}
-.footer{
-	background-color: #3f3c4c;
-	padding: 90px 0 140px 0;
-}
-.footer .logo img{
-	max-width: 100%;
-}
-.footer h2{
-	color: white;
-	font-size: 12pt;
-	font-weight: 400;
-}
-.footer p{
-color: white;
-font-size: 10pt;
-}
-.footer .redes img{
-padding-left: 15px;
-}
-.list{
-	padding: 150px 0;
-}
-.list h2{
-	font-size: 25pt;
-	text-align: center;
-	margin-bottom: 80px;
-	color: #ff414d;
-	font-weight: 300;
-}
-.list img{
-	max-width: 30%;
-	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 25px;
-	margin-left: 130px;
-}
-img.tama{
-	max-width: 20%;
-	text-align: center;
-	margin-top: 45px;
-	margin-bottom: 45px;
-	margin-left: 130px;
-}
-.list h1{
-	font-size: 18pt;
-	text-align: center;
-	text-transform: uppercase;
-	color: #2ea9b0;
-}
-.list p{
-	font-size: 12pt;
-	margin-bottom: 80px;
-}
+.testimonios {
+  background-color: #ffffff;
+  padding: 80px 0; }
+
+.footer {
+  background-color: #3f3c4c;
+  padding: 90px 0 140px 0; }
+  .footer .logo img {
+    max-width: 100%; }
+  .footer h2 {
+    color: white;
+    font-size: 12pt;
+    font-weight: 400; }
+  .footer p {
+    color: white;
+    font-size: 10pt; }
+  .footer .redes img {
+    padding-left: 15px; }

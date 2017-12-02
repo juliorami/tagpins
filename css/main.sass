@@ -1,23 +1,63 @@
+// - - - - - - - - - - - -
+// VARIABLES
+// - - - - - - - - - - - -
+
+// COLORES
+
+$uva    :      #3f3c4c
+$fresa  :      #ff414d
+$cielo  :      #e4f5f6
+$rosa   :      #ffd9db
+$gris   :      #d9d8db
+$blanco :      #ffffff
+
+// FUENTES
+
+$fuentePrimaria : "Avenir Next"
+
+// - - - - - - - - - - - -
+// ESTILOS
+// - - - - - - - - - - - -
+
+// HEADER
+
+// MENU
+
+// CONTENT
+
+// FOOTER
+
 .menu
-  background-color: #3f3c4c
+  background-color: $uva
   padding: 5px 0
   .logo
     max-width: 100%
+  .menu-header_menu-container
+    ul
+      margin-bottom: 0
+      li
+        list-style: none
+        padding: 0 20px
+        a
+          color: white
+          text-transform: uppercase
 
-.main-menu ul li
-  padding-top: 25px
-  list-style: none
-  display: inline-flex
-  text-transform: uppercase
-  font-family: "Avenir Next"
-  a
-    color: white
-    margin-right: 10px
+
+
+// .main-menu ul li
+//   padding-top: 25px
+//   list-style: none
+//   display: inline-flex
+//   text-transform: uppercase
+//   font-family: "Avenir Next"
+//   a
+//     color: white
+//     margin-right: 10px
 
 .presentacion
   padding-top: 120px
   padding-bottom: 100px
-  font-family: "Avenir Next"
+  font-family: $fuentePrimaria
   font-size: 12pt
 
 img.pizarron
@@ -61,7 +101,7 @@ img.pizarron
   padding-bottom: 400px
   h2
     text-transform: uppercase
-    color: #3f3c4c
+    color: $uva
     font-size: 30pt
     font-weight: 700
     text-align: center
@@ -76,7 +116,7 @@ img.pizarron
   padding: 80px 0
 
 .footer
-  background-color: #3f3c4c
+  background-color: $uva
   padding: 90px 0 140px 0
   .logo img
     max-width: 100%
