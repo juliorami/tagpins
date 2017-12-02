@@ -153,37 +153,78 @@
 
 // OTROS PRODUCTOS
 
-.desk
-  background-image: url("../img/desk.png")
-  display: block
+.animationWrapper
   width: 100%
-  height: 500px
-  background-color: red
-  background-size: contain
-  background-repeat: no-repeat
-  background-position: center
+  padding-bottom: 55%
+  background-color: yellow
   position: relative
-  .case
+  .desk
     position: absolute
+    background-image: url("../img/desk.png")
+    width: 100%
+    height: 100%
     display: block
-    background-color: blue
-    width: 20px
-    height: 30px
-    z-index: 1
+    background-color: #af3f3f2e
+    background-size: contain
+    background-repeat: no-repeat
+    background-position: center
+  .plato
+    +animateBoard (2s, 1, fall)
+    position: absolute
+    background-image: url("../img/platocactus.png")
     top: 0
-    left: 43%
+    left: 26%
+    width: 50%
+    height: 30%
+    // background-color: red
+  .cactusuno
+    +animateBoard (2s,1, falltwo)
+    position: absolute
+    background-image: url("../img/cactus1.png")
+    top: 0
+    left: 26%
+    width: 200px
+    height: 200px
+  .cactusdos
+    +animateBoard (2s,1, fallthree)
+    position: absolute
+    background-image: url("../img/cactus2.png")
+    top: 0
+    left: 20%
+    width: 100%
+    height: 100%
 
 // PRODUCTOS ANIMATION
 
 @keyframes fall
   0%
-    height: 100px
+    top: 0
   50%
-    height: 0
+    top: 30px
   75%
-    height: 0
+    top: 30px
   100%
-    height: 0
+    top: 30px 
+
+@keyframes falltwo
+  0%
+    top: 0
+  50%
+    top: 27px
+  75%
+    top: 27px
+  100%
+    top: 27px 
+
+@keyframes fallthree
+  0%
+    top: 0
+  50%
+    top: 27px
+  75%
+    top: 27px
+  100%
+    top: 27px 
 
 // USOS
 

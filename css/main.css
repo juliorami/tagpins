@@ -136,35 +136,79 @@
     text-align: center;
     margin-bottom: 90px; }
 
-.desk {
-  background-image: url("../img/desk.png");
-  display: block;
+.animationWrapper {
   width: 100%;
-  height: 500px;
-  background-color: red;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  padding-bottom: 55%;
+  background-color: yellow;
   position: relative; }
-  .desk .case {
+  .animationWrapper .desk {
     position: absolute;
+    background-image: url("../img/desk.png");
+    width: 100%;
+    height: 100%;
     display: block;
-    background-color: blue;
-    width: 20px;
-    height: 30px;
-    z-index: 1;
+    background-color: #af3f3f2e;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .animationWrapper .plato {
+    animation-name: fall;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    position: absolute;
+    background-image: url("../img/platocactus.png");
     top: 0;
-    left: 43%; }
+    left: 26%;
+    width: 50%;
+    height: 30%; }
+  .animationWrapper .cactusuno {
+    animation-name: falltwo;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    position: absolute;
+    background-image: url("../img/cactus1.png");
+    top: 0;
+    left: 26%;
+    width: 200px;
+    height: 200px; }
+  .animationWrapper .cactusdos {
+    animation-name: fallthree;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    position: absolute;
+    background-image: url("../img/cactus2.png");
+    top: 0;
+    left: 20%;
+    width: 100%;
+    height: 100%; }
 
 @keyframes fall {
   0% {
-    height: 100px; }
+    top: 0; }
   50% {
-    height: 0; }
+    top: 30px; }
   75% {
-    height: 0; }
+    top: 30px; }
   100% {
-    height: 0; } }
+    top: 30px; } }
+@keyframes falltwo {
+  0% {
+    top: 0; }
+  50% {
+    top: 27px; }
+  75% {
+    top: 27px; }
+  100% {
+    top: 27px; } }
+@keyframes fallthree {
+  0% {
+    top: 0; }
+  50% {
+    top: 27px; }
+  75% {
+    top: 27px; }
+  100% {
+    top: 27px; } }
 .usos {
   background-color: #d9d8db;
   padding: 80px 0; }
