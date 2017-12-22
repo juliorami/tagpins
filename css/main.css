@@ -35,81 +35,35 @@
   font-size: 12pt;
   font-weight: 500; }
 
-.pizarron {
+#pieza {
   display: block;
-  width: 100%;
+  width: 350px;
   height: 200px;
-  position: relative; }
-  .pizarron .pieza {
-    display: inline-block;
-    width: 34%;
-    height: 100px;
-    background-image: url("../img/cork.jpg");
-    position: absolute; }
-  .pizarron .uno {
-    animation-name: slideout;
-    animation-iteration-count: 1;
-    animation-duration: 2s;
-    bottom: 50%;
-    left: 0; }
-  .pizarron .dos {
-    animation-name: slideouttwo;
-    animation-iteration-count: 1;
-    animation-duration: 2s;
-    bottom: 50%;
-    left: 33.3%; }
-  .pizarron .tres {
-    animation-name: slideoutthree;
-    animation-iteration-count: 1;
-    animation-duration: 2s;
-    bottom: 50%;
-    right: 0; }
-  .pizarron .cuatro {
-    animation-name: slideouttwo;
-    animation-iteration-count: 1;
-    animation-duration: 2s;
-    bottom: 0;
-    left: 0; }
-  .pizarron .cinco {
-    animation-name: slideout;
-    animation-iteration-count: 1;
-    animation-duration: 2s;
-    bottom: 0;
-    left: 33.3%; }
-  .pizarron .seis {
-    animation-name: slideoutthree;
-    animation-iteration-count: 1;
-    animation-duration: 2s;
-    bottom: 0;
-    right: 0; }
+  background-image: url("../img/cork.jpg"); }
 
-@keyframes slideout {
-  25% {
-    height: 100px; }
-  50% {
-    height: 0; }
-  75% {
-    height: 0; }
-  100% {
-    height: 0; } }
-@keyframes slideouttwo {
-  25% {
-    height: 100px; }
-  50% {
-    height: 100px; }
-  75% {
-    height: 0; }
-  100% {
-    height: 0; } }
-@keyframes slideoutthree {
-  25% {
-    height: 100px; }
-  50% {
-    height: 100px; }
-  75% {
-    height: 100px; }
-  100% {
-    height: 0; } }
+.flipXZoomIn {
+  animation-name: flipXZoomIn; }
+
+@keyframes flipXZoomIn {
+  from {
+    transform: perspective(600px) rotateX(0deg) scale(1);
+    animation-timing-function: ease-out; }
+  39% {
+    background-image: url("../img/cork.jpg"); }
+  40% {
+    transform: perspective(600px) rotateX(-90deg) scale(1.8);
+    animation-timing-function: ease-out;
+    background-image: url("../img/envio.png"); }
+  80% {
+    transform: perspective(600px) rotateX(-180deg) scale(0.7);
+    animation-timing-function: ease-in;
+    background-image: url("../img/envio.png"); }
+  to {
+    transform: scale(1);
+    background-image: url("../img/envio.png"); } }
+.cssanimation, .cssanimation span {
+  animation-duration: 3s; }
+
 .materiales {
   background-color: #e4f5f6;
   padding: 80px 0; }

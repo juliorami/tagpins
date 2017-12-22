@@ -9,6 +9,7 @@
 			<div class="row">
 				<div class="col-2"></div>
 				<div class="col-2">
+					<button id="animacion">Animación</button>
 					<img src="<?php bloginfo('template_url'); ?>/img/huella.jpg">
 					<h3>DISEÑOS UNICOS</h3>
 					<p>Nuestros pizarrones se adaptan a tu estilo de vida, con diseño diferentes.</p>
@@ -18,7 +19,7 @@
 					<img src="<?php bloginfo('template_url'); ?>/img/huella.jpg">
 					<h3>100% MEXICANO</h3>
 					<p>Somos una empresa mexicana que se propone revolucionar tu espacio de ideas.</p>
-					<button class="primario">COMPRAR</button>
+					<button class="primario cssanimation leRainDrop sequence">COMPRAR</button>
 				</div>
 				<div class="col-1"></div>
 				<div class="col-2">
@@ -60,7 +61,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
-						<?php putRevSlider("perfiles") ?>
+						<?php //putRevSlider("perfiles"); ?>
 					</div>
 				</div>
 			</div>
@@ -68,8 +69,8 @@
 		<div class="testimonios">
 			<div class="container">
 				<div class="col-12">
-					<?php putRevSlider("testimonios") ?>
+					<?php //putRevSlider("testimonios"); ?>
 				</div>
 			</div>
 		</div>
-<?php get_footer() ?>
+<?php get_footer(); ?>

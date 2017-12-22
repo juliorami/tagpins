@@ -1,0 +1,1 @@
+function miFuncion(){document.getElementById("pieza").className+="cssanimation flipXZoomIn"}document.getElementById("animacion").addEventListener("click",miFuncion);

@@ -1,0 +1,1 @@
+function miFuncion(){document.getElementById("pieza").className+=" cssanimation flipXZoomIn",boton.disabled=!0}var boton=document.getElementById("animacion");boton.addEventListener("click",miFuncion);

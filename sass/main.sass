@@ -49,79 +49,37 @@
 // - - - - - - - - 
 // HERO
 // - - - - - - - - 
-
-=animateBoard($duration, $repeat, $name)
-  animation-name: $name
-  animation-iteration-count: $repeat
-  animation-duration: $duration
-
-.pizarron
+#pieza
   display: block
-  width: 100%
+  width: 350px
   height: 200px
-  position: relative
-  .pieza
-    display: inline-block
-    width: 34%
-    height: 100px
-    background-image: url('../img/cork.jpg')
-    position: absolute
-  .uno
-    +animateBoard(2s,1, slideout)
-    bottom: 50%
-    left: 0
-  .dos
-    +animateBoard(2s,1, slideouttwo)
-    bottom: 50%
-    left: 33.3%  
-  .tres
-    +animateBoard(2s,1, slideoutthree)
-    bottom: 50%
-    right: 0  
-  .cuatro
-    +animateBoard(2s,1, slideouttwo)
-    bottom: 0
-    left: 0  
-  .cinco
-    +animateBoard(2s,1, slideout)
-    bottom: 0
-    left: 33.3%  
-  .seis
-    +animateBoard(2s,1, slideoutthree)
-    bottom: 0
-    right: 0
-    
-// HERO ANIMATION
+  background-image: url("../img/cork.jpg")
 
-@keyframes slideout
-  25%
-    height: 100px
-  50%
-    height: 0
-  75%
-    height: 0
-  100%
-    height: 0
+//CSS ANIMATION Flip X Zoom In Edited
 
-@keyframes slideouttwo
-  25%
-    height: 100px
-  50%
-    height: 100px
-  75%
-    height: 0
-  100%
-    height: 0
+.flipXZoomIn
+  animation-name: flipXZoomIn
+@keyframes flipXZoomIn
+  from
+    transform: perspective(600px) rotateX(0deg) scale(1)
+    animation-timing-function: ease-out
+  39%
+    background-image: url("../img/cork.jpg")
+  40%
+    transform: perspective(600px) rotateX(-90deg) scale(1.8)
+    animation-timing-function: ease-out
+    background-image: url("../img/envio.png")
+  80%
+    transform: perspective(600px) rotateX(-180deg) scale(.7)
+    animation-timing-function: ease-in
+    background-image: url("../img/envio.png")
+  to
+    transform: scale(1)
+    background-image: url("../img/envio.png")
 
-@keyframes slideoutthree
-  25%
-    height: 100px
-  50%
-    height: 100px
-  75%
-    height: 100px
-  100%
-    height: 0
+.cssanimation, .cssanimation span
+  animation-duration: 3s
+
 
 // MATERIALES
 
@@ -152,6 +110,11 @@
     margin-bottom: 90px
 
 // OTROS PRODUCTOS
+
+=animateBoard($duration, $repeat, $name)
+  animation-name: $name
+  animation-iteration-count: $repeat
+  animation-duration: $duration
 
 .animationWrapper
   width: 100%

@@ -2,8 +2,10 @@
 <html>
 <head>
 	<title><?php bloginfo('name'); ?></title>
+	<link href="<?php bloginfo('template_url'); ?>/vendor/cssanimation/cssanimation.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/main.css">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">	
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/vendor/cssanimation/letteranimation.min.js"></script>
     <source src="" type="">
      <?php wp_head(); ?>
 </head>
