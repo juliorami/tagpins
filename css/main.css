@@ -1,10 +1,20 @@
+.primario {
+  background-color: #ff414d;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 20px;
+  color: white;
+  font-size: 12pt;
+  font-weight: 500; }
+
 .menu {
   background-color: #3f3c4c;
   padding: 5px 0; }
   .menu .logo {
     max-width: 100%; }
   .menu .menu-header_menu-container ul {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    padding-top: 17px; }
     .menu .menu-header_menu-container ul li {
       list-style: none;
       padding: 0 20px; }
@@ -26,18 +36,8 @@ img.pizarron {
   padding: 50px 0; }
 
 .caracteristicas img {
-  max-width: 40%;
+  max-width: 70%;
   text-align: center; }
-
-.caracteristicas .primario {
-  background-color: #ff414d;
-  border-radius: 5px;
-  border: none;
-  padding: 5px 20px;
-  color: white;
-  font-size: 12pt;
-  font-weight: 500;
-  margin-top: 60px; }
 
 .materiales {
   background-color: #e4f5f6;
@@ -54,16 +54,33 @@ img.pizarron {
     margin: 0px 90px; }
 
 .productos {
-  background-color: #ffd9db;
-  padding: 80px 0;
-  padding-bottom: 400px; }
+  background-color: #ffffff;
+  padding: 80px 0; }
   .productos h2 {
     text-transform: uppercase;
-    color: #3f3c4c;
+    color: #ff414d;
     font-size: 30pt;
     font-weight: 700;
     text-align: center;
     margin-bottom: 90px; }
+  .productos .other-product {
+    background-color: white;
+    padding: 25px 0;
+    text-align: center;
+    border-radius: 15px;
+    border: 5px dashed #ff414d; }
+    .productos .other-product img {
+      max-width: 50%;
+      margin-bottom: 25px; }
+    .productos .other-product h3 {
+      color: #ff414d; }
+    .productos .other-product .secundario {
+      border-radius: 5px;
+      border: 2px solid #ff414d;
+      padding: 5px 20px;
+      color: #ff414d;
+      font-size: 12pt;
+      font-weight: 500; }
 
 .usos {
   background-color: #d9d8db;
@@ -71,19 +88,41 @@ img.pizarron {
 
 .testimonios {
   background-color: #ffffff;
-  padding: 80px 0; }
+  padding: 80px 0;
+  text-align: center; }
 
 .footer {
   background-color: #3f3c4c;
   padding: 90px 0 140px 0; }
   .footer .logo img {
-    max-width: 100%; }
-  .footer h2 {
+    max-width: 150%; }
+  .footer h1 {
     color: white;
     font-size: 12pt;
     font-weight: 400; }
   .footer p {
     color: white;
     font-size: 10pt; }
-  .footer .redes img {
-    padding-left: 15px; }
+  .footer .formulario {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 10px; }
+    .footer .formulario h2 {
+      color: #ff414d;
+      text-align: center; }
+    .footer .formulario .indicates-required {
+      font-size: 10pt;
+      padding: 10px 0;
+      color: #3f3c4c; }
+    .footer .formulario .mc-field-group input {
+      border-radius: 5px;
+      box-shadow: 0;
+      border: 1px solid #ffa7ad; }
+
+.posfooter {
+  background-color: #302f36;
+  color: #ffffff;
+  font-size: 12pt;
+  font-weight: 400; }
+  .posfooter img {
+    max-width: 100%; }

@@ -11,7 +11,8 @@
 		<div class="container">
 		 	<div class="row">
 		 		<div class="col-xs-12 col-md-2">
-		 			<img class="logo" src="<?php bloginfo('template_url'); ?>/img/logo.png">
+          <a href="http://localhost:8888/tagpin/"><img class="logo" src="<?php bloginfo('template_url'); ?>/img/logo.png"></a>
+		 			
 		 		</div>
 		 		<div class="col-3"></div>
 		 		<div class="col-xs-12 col-md-7">

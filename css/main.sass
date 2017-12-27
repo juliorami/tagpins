@@ -19,6 +19,17 @@ $fuentePrimaria : "Avenir Next"
 // ESTILOS
 // - - - - - - - - - - - -
 
+// BOTONES
+
+.primario
+    background-color: $fresa
+    border-radius: 5px
+    border: none
+    padding: 5px 20px
+    color: white
+    font-size: 12pt
+    font-weight: 500
+
 // HEADER
 
 // MENU
@@ -35,9 +46,11 @@ $fuentePrimaria : "Avenir Next"
   .menu-header_menu-container
     ul
       margin-bottom: 0
+      padding-top: 17px
       li
         list-style: none
         padding: 0 20px
+        padding-top 20px
         a
           color: white
           text-transform: uppercase
@@ -69,17 +82,8 @@ img.pizarron
 
 .caracteristicas
   img
-    max-width: 40%
+    max-width: 70%
     text-align: center
-  .primario
-    background-color: #ff414d
-    border-radius: 5px
-    border: none
-    padding: 5px 20px
-    color: white
-    font-size: 12pt
-    font-weight: 500
-    margin-top: 60px
 
 .materiales
   background-color: #e4f5f6
@@ -96,16 +100,34 @@ img.pizarron
     margin: 0px 90px
 
 .productos
-  background-color: #ffd9db
+  background-color: $blanco
   padding: 80px 0
-  padding-bottom: 400px
+  // padding-bottom: 400px
   h2
     text-transform: uppercase
-    color: $uva
+    color: $fresa
     font-size: 30pt
     font-weight: 700
     text-align: center
     margin-bottom: 90px
+  .other-product
+    background-color: white
+    padding: 25px 0
+    text-align: center
+    border-radius: 15px
+    border: 5px dashed $fresa
+    img
+      max-width: 50%
+      margin-bottom: 25px
+    h3
+      color: $fresa
+    .secundario
+      border-radius: 5px
+      border: 2px solid $fresa
+      padding: 5px 20px
+      color: $fresa
+      font-size: 12pt
+      font-weight: 500
 
 .usos
   background-color: #d9d8db
@@ -114,18 +136,44 @@ img.pizarron
 .testimonios
   background-color: #ffffff
   padding: 80px 0
+  text-align: center
 
 .footer
   background-color: $uva
   padding: 90px 0 140px 0
   .logo img
-    max-width: 100%
-  h2
+    max-width: 150%
+  h1
     color: white
     font-size: 12pt
     font-weight: 400
   p
     color: white
     font-size: 10pt
-  .redes img
-    padding-left: 15px
+
+  //MAILCHIMP
+  .formulario
+    background-color: white
+    border-radius: 20px
+    padding: 20px 10px
+    h2
+      color: $fresa
+      text-align: center
+    .indicates-required
+      font-size: 10pt
+      padding: 10px 0
+      color: $uva
+    .mc-field-group
+      input
+        border-radius: 5px
+        box-shadow: 0
+        border: 1px solid lighten($fresa, 20%)
+.posfooter
+  background-color: #302f36
+  padding-top 20px
+  img
+    max-width: 100%
+  h5
+  color: $blanco
+  font-size: 12pt
+  font-weight: 400
