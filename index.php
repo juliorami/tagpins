@@ -9,7 +9,6 @@
 			<div class="row">
 				<div class="col-2"></div>
 				<div class="col-2">
-					<button id="animacion">Animación</button>
 					<img src="<?php bloginfo('template_url'); ?>/img/huella.jpg">
 					<h3>DISEÑOS UNICOS</h3>
 					<p>Nuestros pizarrones se adaptan a tu estilo de vida, con diseño diferentes.</p>

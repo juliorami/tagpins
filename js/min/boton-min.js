@@ -1,1 +1,1 @@
-function miFuncion(){document.getElementById("pieza").className+=" cssanimation flipXZoomIn",boton.disabled=!0}var boton=document.getElementById("animacion");boton.addEventListener("click",miFuncion);
+function miFuncion(){document.getElementById("pieza").className+=" cssanimation flipXZoomIn",boton.disabled=!0}var boton=document.getElementById("animacion");boton.addEventListener("click",miFuncion);var element=document.getElementById("animacion");snabbt(element,"attention",{rotation:[0,0,Math.PI/2],springConstant:1.9,springDeceleration:.9});

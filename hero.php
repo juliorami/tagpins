@@ -1,10 +1,9 @@
-<div class="col-3"></div>
-	<div class="col-6">
-		<div class="pizarron">
-			<div id="pieza">
-			</div>
-			<div class="pieza dos"></div>
+<div class="col-12">
+	<div class="pizarron">
+		<div id="pieza">
 		</div>
 	</div>
-	<div class="col-3"></div>
-</div> 
+</div>
+<div class="col-6">
+	<button id="animacion">Descubre Tagpin</button>
+</div>

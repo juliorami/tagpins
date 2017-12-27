@@ -37,9 +37,21 @@
 
 #pieza {
   display: block;
+  text-align: center;
+  margin: 0 auto;
   width: 350px;
   height: 200px;
   background-image: url("../img/cork.jpg"); }
+
+#animacion {
+  background-color: #ff414d;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 20px;
+  color: white;
+  font-size: 12pt;
+  font-weight: 500;
+  margin: 30px auto;}
 
 .flipXZoomIn {
   animation-name: flipXZoomIn; }
@@ -51,16 +63,16 @@
   39% {
     background-image: url("../img/cork.jpg"); }
   40% {
-    transform: perspective(600px) rotateX(-90deg) scale(1.8);
+    transform: perspective(600px) rotateX(90deg) scale(1.8);
     animation-timing-function: ease-out;
-    background-image: url("../img/envio.png"); }
+    background-image: url("../img/bulletbill.png"); }
   80% {
-    transform: perspective(600px) rotateX(-180deg) scale(0.7);
+    transform: perspective(600px) rotateX(180deg) scale(0.7);
     animation-timing-function: ease-in;
-    background-image: url("../img/envio.png"); }
+    background-image: url("../img/bulletbill.png"); }
   to {
     transform: scale(1);
-    background-image: url("../img/envio.png"); } }
+    background-image: url("../img/bulletbill.png"); } }
 .cssanimation, .cssanimation span {
   animation-duration: 3s; }
 
