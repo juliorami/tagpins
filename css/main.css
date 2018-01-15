@@ -162,3 +162,14 @@ div.product {
   color: #92989e;
   text-transform: uppercase;
   margin: 15px 0 15px 0; }
+
+/* descripcion opiniones*/
+.tabs.wc-tabs {
+  text-align: center; }
+  .tabs.wc-tabs li {
+    list-style: none;
+    display: inline-flex;
+    margin-right: 40px; }
+  .tabs.wc-tabs a {
+    color: #3f3c4c;
+    font-weight: 500; }

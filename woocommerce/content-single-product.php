@@ -77,7 +77,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	</div>
 </div>
 
-<div class="user-info" style="background-color: pink;">
+<div class="user-info" ">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
