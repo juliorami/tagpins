@@ -45,7 +45,7 @@
 			<div class="row">
 				<div class="redes">
 					<div class="col-xs-12 col-12">
-						<h5><img src="<?php bloginfo('template_url'); ?>/img/facebook.png">facebook.com/tagpins</h1>
+						<h5><a href="https://www.facebook.com/Tagpin-514677008903981/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/facebook.png">facebook.com/Tagpin</a></h5>
 					</div>
 				</div>
 			</div>

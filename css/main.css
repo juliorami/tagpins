@@ -131,7 +131,7 @@ img.pizarron {
   padding-top: 20px; }
   .posfooter img {
     max-width: 100%; }
-  .posfooter h5 {
+  .posfooter h5 a {
     color: #ffffff;
     font-size: 12pt;
     font-weight: 400; }
@@ -159,7 +159,7 @@ div.product {
   width: 60px;
   height: 30px; }
 
-/* etiquetas de producto*/
+/* etiquetas de producto */
 .posted_in {
   font-size: 8pt;
   color: #92989e;
