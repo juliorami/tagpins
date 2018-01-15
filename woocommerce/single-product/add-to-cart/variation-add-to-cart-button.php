@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 global $product;
 ?>
-<div class="woocommerce-variation-add-to-cart variations_button">
+<div class="primario">
 	<?php
 		/**
 		 * @since 3.0.0.

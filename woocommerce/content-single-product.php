@@ -1,4 +1,4 @@
-<?php
+ <?php
 /**
  * The template for displaying product content in the single-product.php template
  *
@@ -81,6 +81,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
+				<hr style="border: 2px solid rgb(46, 169, 176);">
 				<?php
 					/**
 					 * woocommerce_after_single_product_summary hook.
@@ -91,7 +92,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 					 */ 
 					do_action( 'woocommerce_after_single_product_summary' );
 				?>
-				
+				<hr style="border: 2px solid rgb(46, 169, 176);">
 			</div>
 		</div>
 	</div>
