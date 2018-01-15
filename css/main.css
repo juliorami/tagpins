@@ -23,7 +23,8 @@ h2 {
     padding-top: 17px; }
     .menu .menu-header_menu-container ul li {
       list-style: none;
-      padding: 0 20px; }
+      padding: 0 20px;
+      padding-top: 20px; }
       .menu .menu-header_menu-container ul li a {
         color: white;
         text-transform: uppercase; }
@@ -127,11 +128,13 @@ img.pizarron {
 
 .posfooter {
   background-color: #302f36;
-  color: #ffffff;
-  font-size: 12pt;
-  font-weight: 400; }
+  padding-top: 20px; }
   .posfooter img {
     max-width: 100%; }
+  .posfooter h5 {
+    color: #ffffff;
+    font-size: 12pt;
+    font-weight: 400; }
 
 /* woocomerce single product */
 div.product {
