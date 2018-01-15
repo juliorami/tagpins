@@ -55,7 +55,7 @@ if ( $product->is_in_stock() ) : ?>
 			do_action( 'woocommerce_after_add_to_cart_quantity' );
 		?>
 
-		<input type="number" id="<?php echo esc_attr( $input_id ); ?>" class="input-number" step="<?php echo esc_attr( $step ); ?>" style="width:60px;height:30px" min="<?php echo esc_attr( $min_value ); ?>" max="<?php echo esc_attr( 0 < $max_value ? $max_value : '' ); ?>" name="<?php echo esc_attr( $input_name ); ?>" value="<?php echo esc_attr( $input_value ); ?>" title="<?php echo esc_attr_x( 'Qty', 'Product quantity input tooltip', 'woocommerce' ) ?>" size="4" pattern="<?php echo esc_attr( $pattern ); ?>" inputmode="<?php echo esc_attr( $inputmode ); ?>" />
+		<input type="number" id="<?php echo esc_attr( $input_id ); ?>" class="input-number" step="<?php echo esc_attr( $step ); ?>" style="width:60px;height:30px" min="1" max="<?php echo esc_attr( 0 < $max_value ? $max_value : '' ); ?>" name="<?php echo esc_attr( $input_name ); ?>" value="1" title="<?php echo esc_attr_x( 'Qty', 'Product quantity input tooltip', 'woocommerce' ) ?>" size="4" pattern="<?php echo esc_attr( $pattern ); ?>" inputmode="<?php echo esc_attr( $inputmode ); ?>" />
 		<button type="submit" name="add-to-cart" value="<?php echo esc_attr( $product->get_id() ); ?>" class="primario"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
 
 		<?php
