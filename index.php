@@ -1,4 +1,5 @@
 <?php /* Template Name: tagpin */ ?>
+<?php include_once( ABSPATH . 'wp-admin/includes/plugin.php' ); ?>
 	<?php get_header() ?>
 		<div class="presentacion">
 			<div class="container">
@@ -83,7 +84,12 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
-						<?php putRevSlider("perfiles") ?>
+
+						<?php
+							if (is_plugin_active('revslider/revslider.php')){
+								putRevSlider("perfiles");
+							}
+						?>
 					</div>
 				</div>
 			</div>
@@ -91,7 +97,11 @@
 		<div class="testimonios">
 			<div class="container">
 				<div class="col-12">
-					<?php putRevSlider("testimonios") ?>
+					<?php
+						if (is_plugin_active('revslider/revslider.php')){
+							putRevSlider("testimonios");
+						}
+					?>
 					<button class="primario">COMPRAR</button>
 				</div>
 			</div>
