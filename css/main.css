@@ -145,3 +145,20 @@ div.product {
   div.product .woocommerce-product-details__short-description {
     border-radius: 15px;
     border: 4px dashed #ff414d; }
+
+.input-number {
+  background-color: #3f3c4c;
+  border: none;
+  border-radius: 5px;
+  margin: 15px 0 15px 0;
+  color: white;
+  text-align: center;
+  width: 60px;
+  height: 30px; }
+
+/* etiquetas de producto*/
+.posted_in {
+  font-size: 8pt;
+  color: #92989e;
+  text-transform: uppercase;
+  margin: 15px 0 15px 0; }

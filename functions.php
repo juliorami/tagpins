@@ -34,6 +34,7 @@ function woocommerce_template_single_julio(){
 
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 5 );
 add_action( 'woocommerce_before_single_product_summary', 'woocommerce_template_single_title', 15 );
+add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_rating', 10 );
 
 // woocommerce_show_product_sale_flash
 // woocommerce_template_single_title
