@@ -7,6 +7,24 @@
   font-size: 12pt;
   font-weight: 500; }
 
+.secundario {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid #2ea9b0;
+  border-color: #2ea9b0;
+  padding: 5px 10px;
+  color: #ff414d;
+  font-size: 12pt;
+  font-weight: 500; }
+
+h1 {
+  text-transform: uppercase;
+  color: #ff414d;
+  font-size: 30pt;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 90px; }
+
 h2 {
   font-size: 30pt;
   font-weight: 700;
@@ -159,7 +177,7 @@ div.product {
   width: 60px;
   height: 30px; }
 
-/* etiquetas de producto */
+/* etiquetas de producto*/
 .posted_in {
   font-size: 8pt;
   color: #92989e;
@@ -176,3 +194,25 @@ div.product {
   .tabs.wc-tabs a {
     color: #3f3c4c;
     font-weight: 500; }
+
+/* CARRITO */
+table.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents {
+  border: 4px dashed #ff414d;
+  border-radius: 10px;
+  text-align: center; }
+
+.woocommerce table.shop_table {
+  border-color: #ff414d; }
+
+tr {
+  color: #2ea9b0; }
+
+.cart-collaterals {
+  color: #ff414d; }
+
+/* TOTAL */
+.cart_totals {
+  border: 3px dashed #ff414d;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 30px; }

@@ -10,6 +10,7 @@ $cielo  :      #e4f5f6
 $rosa   :      #ffd9db
 $gris   :      #d9d8db
 $blanco :      #ffffff
+$verde  :      #2ea9b0
 
 // FUENTES
 
@@ -29,7 +30,22 @@ $fuentePrimaria : "Avenir Next"
   color: white
   font-size: 12pt
   font-weight: 500
-
+.secundario
+  background-color: transparent
+  border-radius: 5px
+  border: 2px solid $verde
+  border-color: $verde
+  padding: 5px 10px
+  color: $fresa
+  font-size: 12pt
+  font-weight: 500
+h1
+  text-transform: uppercase
+  color: $fresa
+  font-size: 30pt
+  font-weight: 700
+  text-align: center
+  margin-bottom: 90px
 h2
   font-size: 30pt
   font-weight: 700
@@ -223,4 +239,23 @@ div.product
   a
     color: $uva
     font-weight: 500
+/* CARRITO */
+table.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents
+  border: 4px dashed $fresa
+  border-radius: 10px
+  text-align: center
+.woocommerce table.shop_table
+  border-color: $fresa
+input#coupon_code
 
+tr
+  color: $verde
+
+.cart-collaterals
+  color: $fresa
+/* TOTAL */
+.cart_totals
+  border: 3px dashed $fresa
+  text-align: center
+  padding: 20px 
+  margin-bottom: 30px
