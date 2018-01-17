@@ -165,3 +165,15 @@ div.product {
   color: #92989e;
   text-transform: uppercase;
   margin: 15px 0 15px 0; }
+
+.price {
+  color: #ff414d;
+  text-align: center; }
+
+.oferta {
+  border-radius: 2px;
+  border: none;
+  padding: 2px 15px;
+  color: #e4f5f6;
+  font-size: 12pt;
+  font-weight: 500; }
