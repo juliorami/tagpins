@@ -177,23 +177,23 @@ div.product {
   width: 60px;
   height: 30px; }
 
-/* etiquetas de producto*/
+/* etiquetas de producto */
 .posted_in {
   font-size: 8pt;
   color: #92989e;
   text-transform: uppercase;
   margin: 15px 0 15px 0; }
 
-/* descripcion opiniones*/
-.tabs.wc-tabs {
+/* descripcion opiniones */
+.tabs.wc-tabs ul {
   text-align: center; }
-  .tabs.wc-tabs li {
-    list-style: none;
-    display: inline-flex;
-    margin-right: 40px; }
-  .tabs.wc-tabs a {
-    color: #3f3c4c;
-    font-weight: 500; }
+.tabs.wc-tabs li {
+  list-style: none;
+  display: inline-flex;
+  margin-right: 40px; }
+.tabs.wc-tabs a {
+  color: #3f3c4c;
+  font-weight: 500; }
 
 /* CARRITO */
 table.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents {
@@ -216,3 +216,36 @@ tr {
   text-align: center;
   padding: 20px;
   margin-bottom: 30px; }
+
+.tagpin_shop .product .woocommerce-LoopProduct-link, .tagpin_shop .product .woocommerce-loop-product__link {
+  text-decoration: none;
+  display: block;
+  padding: 30px;
+  background: #e4f5f6;
+  position: relative;
+  border: 3px dashed #ff414d;
+  border-radius: 5px;
+  margin: 20px 0; }
+  .tagpin_shop .product .woocommerce-LoopProduct-link .onsale, .tagpin_shop .product .woocommerce-loop-product__link .onsale {
+    position: absolute;
+    top: 10%;
+    left: -10%;
+    background: yellow;
+    padding: 0px 10px; }
+  .tagpin_shop .product .woocommerce-LoopProduct-link h2, .tagpin_shop .product .woocommerce-LoopProduct-link .woocommerce-loop-product__title, .tagpin_shop .product .woocommerce-loop-product__link h2, .tagpin_shop .product .woocommerce-loop-product__link .woocommerce-loop-product__title {
+    padding: 20px 0; }
+  .tagpin_shop .product .woocommerce-LoopProduct-link .price del .woocommerce-Price-amount, .tagpin_shop .product .woocommerce-loop-product__link .price del .woocommerce-Price-amount {
+    padding: 10px; }
+  .tagpin_shop .product .woocommerce-LoopProduct-link .price ins .woocommerce-Price-amount, .tagpin_shop .product .woocommerce-loop-product__link .price ins .woocommerce-Price-amount {
+    padding: 10px;
+    background-color: #ff414d;
+    color: #ffffff; }
+.tagpin_shop .product .primario {
+  color: #ffffff;
+  display: block;
+  margin-bottom: 20px;
+  text-decoration: none; }
+.tagpin_shop .product:hover .woocommerce-LoopProduct-link, .tagpin_shop .product:hover .woocommerce-loop-product__link {
+  background-color: yellow; }
+.tagpin_shop .product:hover .primario {
+  background-color: yellow; }
