@@ -13,8 +13,6 @@ function tp_tagpin_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'tp_tagpin_scripts' );
 
-
-
 // add_action( 'woocommerce_single_product_summary', 'tagpin_modificacion_uno', 19 );
 // function tagpin_modificacion_uno(){
 // 	echo "<div class='row'><div class='col-md-4'></div><div class='col-sm-12 col-md-4'>Inicio";
