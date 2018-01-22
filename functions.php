@@ -22,14 +22,10 @@ add_action( 'wp_enqueue_scripts', 'tp_tagpin_scripts' );
 
 // add_action( 'woocommerce_single_product_summary', 'tagpin_modificacion_dos', 21 );
 // function tagpin_modificacion_dos(){
-// 	echo "Fin</div><div class='col-md-4'></div></div>";
+// 	echo "Fin</div><div class='col-md-4'></div></div>"; 
 // }
 
-add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_julio', 1000 );
 
-function woocommerce_template_single_julio(){
-	echo "HOLA MUNDO";
-}
 
 
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 5 );

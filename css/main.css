@@ -18,12 +18,12 @@
   font-weight: 500; }
 
 h1 {
-  text-transform: uppercase;
-  color: #ff414d;
-  font-size: 30pt;
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 90px; }
+  text-transform: uppercase !important;
+  color: #ff414d !important;
+  font-size: 30pt !important;
+  font-weight: 700 !important;
+  text-align: center !important;
+  margin: 40px 0 !important; }
 
 h2 {
   font-size: 30pt;
@@ -216,3 +216,49 @@ tr {
   text-align: center;
   padding: 20px;
   margin-bottom: 30px; }
+
+/* CARRITO VACIO */
+p.return-to-shop {
+  text-align: center; }
+
+p.cart-empty {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #2ea9b0;
+  border: 4px dashed #ff414d;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px 10px; }
+  p.cart-empty:after {
+    content: '';
+    margin-top: 20px;
+    display: block;
+    background-image: url(../img/cart.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 110px;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+    /* For IE8 and earlier */ }
+
+/* MENSAJE */
+.woocommerce-message::before {
+  content: '\e015';
+  color: #ff414d !important; }
+
+.woocommerce-error, .woocommerce-info, .woocommerce-message {
+  background-color: #f7f6f7;
+  color: #ffffff !important;
+  border-top: 3px solid #ff414d !important;
+  border-radius: 20px;
+  background-color: #3f3c4c !important;
+  text-align: center; }
+
+p.return-to-shop {
+  margin-bottom: 52px; }
+
+a.restore-item {
+  color: #ff414d;
+  font-size: 10pt; }
