@@ -28,7 +28,7 @@ if ( ! woocommerce_products_will_display() ) {
 	return;
 }
 ?>
-<p class="woocommerce-result-count">texto prueba2
+<p class="woocommerce-result-count">
 	<?php
 	$paged    = max( 1, $wp_query->get( 'paged' ) );
 	$per_page = $wp_query->get( 'posts_per_page' );

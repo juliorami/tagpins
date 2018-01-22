@@ -25,23 +25,6 @@ add_action( 'wp_enqueue_scripts', 'tp_tagpin_scripts' );
 // 	echo "Fin</div><div class='col-md-4'></div></div>";
 // }
 
-add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_julio', 1000 );
-
-function woocommerce_template_single_julio(){
-	echo "HOLA MUNDO";
-}
-
-
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 5 );
 add_action( 'woocommerce_before_single_product_summary', 'woocommerce_template_single_title', 15 );
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_rating', 10 );
-
-// woocommerce_show_product_sale_flash
-// woocommerce_template_single_title
-// woocommerce_show_product_images
-// woocommerce_template_single_rating
-// woocommerce_template_single_price
-// woocommerce_template_single_excerpt
-// woocommerce_template_single_add_to_cart
-// woocommerce_template_single_meta
-// woocommerce_template_single_sharing

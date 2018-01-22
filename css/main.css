@@ -177,3 +177,36 @@ div.product {
   color: #e4f5f6;
   font-size: 12pt;
   font-weight: 500; }
+
+.tagpin_shop .product .woocommerce-LoopProduct-link, .tagpin_shop .product .woocommerce-loop-product__link {
+  text-decoration: none;
+  display: block;
+  padding: 30px;
+  background: #e4f5f6;
+  position: relative;
+  border: 3px dashed #ff414d;
+  border-radius: 5px;
+  margin: 20px 0; }
+  .tagpin_shop .product .woocommerce-LoopProduct-link .onsale, .tagpin_shop .product .woocommerce-loop-product__link .onsale {
+    position: absolute;
+    top: 10%;
+    left: -10%;
+    background: yellow;
+    padding: 0px 10px; }
+  .tagpin_shop .product .woocommerce-LoopProduct-link h2, .tagpin_shop .product .woocommerce-LoopProduct-link .woocommerce-loop-product__title, .tagpin_shop .product .woocommerce-loop-product__link h2, .tagpin_shop .product .woocommerce-loop-product__link .woocommerce-loop-product__title {
+    padding: 20px 0; }
+  .tagpin_shop .product .woocommerce-LoopProduct-link .price del .woocommerce-Price-amount, .tagpin_shop .product .woocommerce-loop-product__link .price del .woocommerce-Price-amount {
+    padding: 10px; }
+  .tagpin_shop .product .woocommerce-LoopProduct-link .price ins .woocommerce-Price-amount, .tagpin_shop .product .woocommerce-loop-product__link .price ins .woocommerce-Price-amount {
+    padding: 10px;
+    background-color: #ff414d;
+    color: #ffffff; }
+.tagpin_shop .product .primario {
+  color: #ffffff;
+  display: block;
+  margin-bottom: 20px;
+  text-decoration: none; }
+.tagpin_shop .product:hover .woocommerce-LoopProduct-link, .tagpin_shop .product:hover .woocommerce-loop-product__link {
+  background-color: yellow; }
+.tagpin_shop .product:hover .primario {
+  background-color: yellow; }

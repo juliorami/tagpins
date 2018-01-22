@@ -16,4 +16,6 @@
  * @version     2.0.0
  */
 ?>
-<ul class="productos">
+<div class="tagpin_shop">
+	<div class="container">
+		<div class="row">

@@ -223,5 +223,48 @@ div.product
   font-size: 12pt
   font-weight: 500
 
+// SHOP
+
+.tagpin_shop
+  .product
+    .woocommerce-LoopProduct-link, .woocommerce-loop-product__link
+      text-decoration: none
+      display: block
+      padding: 30px
+      background: $cielo
+      position: relative
+      border: 3px dashed $fresa
+      border-radius: 5px
+      margin: 20px 0
+      .onsale
+        position: absolute
+        top: 10%
+        left: -10%
+        background: yellow
+        padding: 0px 10px
+      h2, .woocommerce-loop-product__title
+        padding: 20px 0
+      .price
+        del
+          .woocommerce-Price-amount
+            padding: 10px
+        ins
+          .woocommerce-Price-amount
+            padding: 10px
+            background-color: $fresa
+            color: $blanco
+    .primario
+      color: $blanco
+      display: block
+      margin-bottom: 20px
+      text-decoration: none
+  .product:hover
+    .woocommerce-LoopProduct-link, .woocommerce-loop-product__link
+      background-color: yellow
+    .primario
+      background-color: yellow
+
+
+
 
 
