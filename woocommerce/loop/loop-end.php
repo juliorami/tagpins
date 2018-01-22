@@ -16,4 +16,6 @@
  * @version     2.0.0
  */
 ?>
-</ul>
+		</div> <!-- /row -->
+	</div> <!-- /container -->
+</div> <!-- /tagpin_shop -->
