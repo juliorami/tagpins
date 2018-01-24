@@ -21,10 +21,17 @@ $fuentePrimaria : "Avenir Next"
 // - - - - - - - - - - - -
 
 // BOTONES
-
+.primario input
+  background-color: $fresa
+  border-radius: 10px
+  border: none
+  padding: 5px 20px
+  color: white
+  font-size: 12pt
+  font-weight: 500
 .primario
   background-color: $fresa
-  border-radius: 5px
+  border-radius: 10px
   border: none
   padding: 5px 20px
   color: white
@@ -51,6 +58,15 @@ h2
   font-weight: 700
   text-align: center
   margin-bottom: 90px
+h3
+  text-transform: uppercase !important
+  color: $fresa !important
+  font-size: 20pt !important
+  font-weight: 700 !important
+  text-align: center !important
+  margin: 20px 0 !important
+a
+  color: $blanco !important
 
 // HEADER
 
@@ -327,7 +343,7 @@ a.restore-item
         left: -10%
         background: yellow
         padding: 0px 10px
-      h2, .woocommerce-loop-product__title
+      h2 .woocommerce-loop-product__title
         padding: 20px 0
       .price
         del
@@ -348,3 +364,85 @@ a.restore-item
       background-color: yellow
     .primario
       background-color: yellow
+
+/* PAGO */
+form.woocommerce-form.woocommerce-form-login.login
+  border: 4px dashed $fresa
+  color: $verde
+  font-weight: 600
+
+
+p.form-row.form-row-last 
+  display: initial
+p.form-row.form-row-first 
+  display: grid
+.form-row 
+  label
+    color: $uva
+label.woocommerce-form__label.woocommerce-form__label-for-checkbox.inline
+    margin: 0 27px
+
+.input-form
+  border: 2px solid $fresa
+  border-radius: 15px
+  color: $uva
+
+// CUPON
+
+.checkout_coupon
+  border: 4px dashed $fresa !important
+  color: $verde
+  font-weight: 600
+
+// DIRECCION PRINCIPAL
+
+.woocommerce-billing-fields__field-wrapper
+  input
+    border: 2px solid $fresa !important
+    border-radius: 15px
+    color: $verde
+    padding: 7px 0
+    font-weight: 500
+  label
+    color: $uva !important
+span.select2-selection.select2-selection--single
+  border: 2px solid $verde !important
+  border-radius: 15px
+
+div#customer_details
+  input
+    border: 2px solid $verde !important
+    border-radius: 15px
+    color: $fresa
+    padding: 7px 0
+    font-weight: 500
+
+textarea#order_comments
+  border: 4px dashed $fresa !important
+  padding: 10px 5px
+
+// TU PEDIDO
+table.shop_table.woocommerce-checkout-review-order-table
+  border: 4px dashed $verde !important
+
+// PAGO CON CHEQUE
+
+.woocommerce-checkout-payment
+  background-color: $verde !important
+  color: $blanco
+#add_payment_method #payment div.payment_box, .woocommerce-cart #payment div.payment_box, .woocommerce-checkout #payment div.payment_box
+  background-color: $blanco !important
+  color: $fresa !important
+  border-radius: 10px !important
+#add_payment_method #payment div.payment_box::before, .woocommerce-cart #payment div.payment_box::before, .woocommerce-checkout #payment div.payment_box::before
+  border: 1em solid $blanco !important
+  content: '' !important
+  display: block !important
+  border-right-color: transparent !important
+  border-left-color: transparent !important
+  border-top-color: transparent !important
+  position: absolute !important
+  top: -.75em !important
+  left: 0 !important
+  margin: -1em 0 0 2em !important
+
